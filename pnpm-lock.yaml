@@ -43,7 +43,7 @@ importers:
     dependencies:
       '@typescript-eslint/utils':
         specifier: ^5.61.0
-        version: 5.62.0(eslint@8.57.1)(typescript@5.3.3)
+        version: 5.62.0(eslint@8.57.1)(typescript@5.0.4)
       requireindex:
         specifier: ^1.2.0
         version: 1.2.0
@@ -56,7 +56,7 @@ importers:
         version: 8.3.0(eslint@8.57.1)
       eslint-doc-generator:
         specifier: ^1.0.0
-        version: 1.7.1(eslint@8.57.1)(typescript@5.3.3)
+        version: 1.7.1(eslint@8.57.1)(typescript@5.0.4)
       eslint-plugin-eslint-plugin:
         specifier: ^5.0.0
         version: 5.5.1(eslint@8.57.1)
@@ -65,7 +65,7 @@ importers:
         version: 16.6.2(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: 3.4.0
-        version: 3.4.0(eslint-config-prettier@8.3.0(eslint@8.57.1))(eslint@8.57.1)(prettier@2.8.8)
+        version: 3.4.0(eslint-config-prettier@8.3.0(eslint@8.57.1))(eslint@8.57.1)(prettier@2.4.1)
       mocha:
         specifier: ^10.0.0
         version: 10.7.3
@@ -309,8 +309,8 @@ importers:
         specifier: 0.0.1
         version: 0.0.1
       undici:
-        specifier: ^5.29.0
-        version: 5.29.0
+        specifier: ^6.23.0
+        version: 6.23.0
       uuid:
         specifier: ^8.3.2
         version: 8.3.2
@@ -1888,8 +1888,8 @@ importers:
         specifier: ^6.8.0
         version: 6.8.2
       undici:
-        specifier: ^5.29.0
-        version: 5.29.0
+        specifier: ^6.23.0
+        version: 6.23.0
     devDependencies:
       '@nomicfoundation/eslint-plugin-hardhat-internal-rules':
         specifier: workspace:^
@@ -2881,10 +2881,6 @@ packages:
 
   '@ethersproject/wordlists@5.7.0':
     resolution: {integrity: sha512-S2TFNJNfHWVHNE6cNDjbVlZ6MgE17MIxMbMg2zv3wn+3XSJGosL1m9ZVv3GXCf/2ymSsQ+hRI5IzoMJTG6aoVA==}
-
-  '@fastify/busboy@2.1.1':
-    resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
-    engines: {node: '>=14'}
 
   '@floating-ui/core@1.6.9':
     resolution: {integrity: sha512-uMXCuQ3BItDUbAMhIXw7UPXRfAlOAvZzdK9BWpE60MCn+Svt3aLn9jsPTi/WNGlRUu2uI0v5S7JiIUsbsvh3fw==}
@@ -4077,8 +4073,8 @@ packages:
   bignumber.js@9.1.2:
     resolution: {integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==}
 
-  bignumber.js@9.3.0:
-    resolution: {integrity: sha512-EM7aMFTXbptt/wZdMlBv2t8IViwQL+h6SLHosp8Yf0dqJMTnY6iL32opnAB6kAdL0SZPuvcAzFr31o0c/R3/RA==}
+  bignumber.js@9.3.1:
+    resolution: {integrity: sha512-Ko0uX15oIUS7wJ3Rb30Fs6SkVbLmPBAKdlm7q9+ak9bbIeFf0MwuBsQV6z7+X768/cHsfg+WlysDWJcmthjsjQ==}
 
   bignumber.js@https://codeload.github.com/frozeman/bignumber.js-nolookahead/tar.gz/57692b3ecfc98bbdd6b3a516cb2353652ea49934:
     resolution: {tarball: https://codeload.github.com/frozeman/bignumber.js-nolookahead/tar.gz/57692b3ecfc98bbdd6b3a516cb2353652ea49934}
@@ -8080,12 +8076,8 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
-  undici@5.29.0:
-    resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
-    engines: {node: '>=14.0'}
-
-  undici@6.21.3:
-    resolution: {integrity: sha512-gBLkYIlEnSp8pFbT64yFgGE6UIB9tAkhukC23PmMDCe5Nd+cRqKxSjw5y54MK2AZMgZfJWMaNE4nYUHgi1XEOw==}
+  undici@6.23.0:
+    resolution: {integrity: sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==}
     engines: {node: '>=18.17'}
 
   unist-util-stringify-position@3.0.3:
@@ -8507,6 +8499,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
@@ -9523,8 +9516,6 @@ snapshots:
       '@ethersproject/properties': 5.7.0
       '@ethersproject/strings': 5.7.0
 
-  '@fastify/busboy@2.1.1': {}
-
   '@floating-ui/core@1.6.9':
     dependencies:
       '@floating-ui/utils': 0.2.9
@@ -9717,7 +9708,7 @@ snapshots:
 
   '@ledgerhq/types-live@6.52.3':
     dependencies:
-      bignumber.js: 9.3.0
+      bignumber.js: 9.3.1
       rxjs: 7.8.1
 
   '@manypkg/find-root@1.1.0':
@@ -10937,7 +10928,7 @@ snapshots:
 
   bignumber.js@9.1.2: {}
 
-  bignumber.js@9.3.0: {}
+  bignumber.js@9.3.1: {}
 
   bignumber.js@https://codeload.github.com/frozeman/bignumber.js-nolookahead/tar.gz/57692b3ecfc98bbdd6b3a516cb2353652ea49934: {}
 
@@ -11135,7 +11126,7 @@ snapshots:
 
   cbor@5.2.0:
     dependencies:
-      bignumber.js: 9.3.0
+      bignumber.js: 9.3.1
       nofilter: 1.0.4
 
   cbor@8.1.0:
@@ -11234,7 +11225,7 @@ snapshots:
       parse5: 7.2.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 6.21.3
+      undici: 6.23.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.5.3:
@@ -12127,6 +12118,25 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
+  eslint-doc-generator@1.7.1(eslint@8.57.1)(typescript@5.0.4):
+    dependencies:
+      '@typescript-eslint/utils': 5.62.0(eslint@8.57.1)(typescript@5.0.4)
+      ajv: 8.17.1
+      boolean: 3.2.0
+      commander: 10.0.1
+      cosmiconfig: 8.3.6(typescript@5.0.4)
+      deepmerge: 4.3.1
+      dot-prop: 7.2.0
+      eslint: 8.57.1
+      jest-diff: 29.7.0
+      json-schema-traverse: 1.0.0
+      markdown-table: 3.0.4
+      no-case: 3.0.4
+      type-fest: 3.13.1
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   eslint-doc-generator@1.7.1(eslint@8.57.1)(typescript@5.3.3):
     dependencies:
       '@typescript-eslint/utils': 5.62.0(eslint@8.57.1)(typescript@5.3.3)
@@ -12280,14 +12290,6 @@ snapshots:
     dependencies:
       eslint: 8.57.1
       prettier: 2.4.1
-      prettier-linter-helpers: 1.0.0
-    optionalDependencies:
-      eslint-config-prettier: 8.3.0(eslint@8.57.1)
-
-  eslint-plugin-prettier@3.4.0(eslint-config-prettier@8.3.0(eslint@8.57.1))(eslint@8.57.1)(prettier@2.8.8):
-    dependencies:
-      eslint: 8.57.1
-      prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
     optionalDependencies:
       eslint-config-prettier: 8.3.0(eslint@8.57.1)
@@ -15755,11 +15757,7 @@ snapshots:
 
   undici-types@6.19.8: {}
 
-  undici@5.29.0:
-    dependencies:
-      '@fastify/busboy': 2.1.1
-
-  undici@6.21.3: {}
+  undici@6.23.0: {}
 
   unist-util-stringify-position@3.0.3:
     dependencies:
@@ -15980,7 +15978,7 @@ snapshots:
     dependencies:
       '@types/bn.js': 5.1.6
       '@types/node': 12.20.55
-      bignumber.js: 9.3.0
+      bignumber.js: 9.3.1
       web3-core-helpers: 1.10.0
       web3-core-method: 1.10.0
       web3-core-requestmanager: 1.10.0
